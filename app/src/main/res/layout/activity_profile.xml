@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/poetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Article labellisé du jour"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/poetBiography"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Le Huçul (ukrainien : гуцул (houtsoul) ; polonais : Hucuł ; roumain : Huțul) est une race de chevaux très rustique, originaire des Carpates où il est originellement élevé par les Houtsoules, auxquels il doit son nom. Bien qu'il soit souvent décrit comme un descendant du Tarpan, cette hypothèse reste non-prouvée. Le Huçul résulte de très nombreux croisements entre des chevaux d'Europe centrale et orientale. Il est sélectionné dans des haras sous l'Empire d'Autriche. Une première union d'éleveurs et un registre généalogique sont créés en 1925 en Ukraine. Plutôt petit à l'origine, le Huçul est sélectionné sur une taille plus élevée. Cheval de montagne typique doté d'un tour de poitrine important, sa robe arbore souvent des marques primitives. Le Huçul est doué de très bonnes longévité et fertilité."
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/poetName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_toolbar_settings"
+        android:icon="@drawable/ic_settings_white_24"
+        android:title="@string/Paramètres"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_toolbar_profile"
+        android:icon="@drawable/ic_person_white_24"
+        android:title="@string/Profil"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_toolbar_call"
+        android:icon="@drawable/ic_call_white_24"
+        android:title="@string/Appel"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_toolbar_email"
+        android:icon="@drawable/ic_email_white_24"
+        android:title="@string/Courriel"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_toolbar_help"
+        android:icon="@drawable/ic_help_white_24"
+        android:title="@string/Aide"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_toolbar_option1"
+        android:title="@string/option1"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/option1_1"
+                android:title="@string/option1_1" />
+            <item
+                android:id="@+id/option1_2"
+                android:title="@string/option1_2" />
+        </menu>
+    </item>
+</menu>

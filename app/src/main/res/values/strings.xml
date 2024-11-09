@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GGToolbarMellouki</string>
+    <string name="title_txt">Toolbar Mellouki</string>
+    <string name="Paramètres">Paramètres</string>
+    <string name="Profil">Profil</string>
+    <string name="Appel">Appel</string>
+    <string name="Courriel">Courriel</string>
+    <string name="Aide">Aide</string>
+    <string name="option1">option 1</string>
+    <string name="option1_1">option 1.1</string>
+    <string name="option1_2">option 1.2</string>
+    <string name="one">Menu et Toolbar</string>
+    <string name="two">Cliquez sur les icônes ou textes de la barre d\'outils pour tester les actions associées.</string>
+    <string name="three">Appuyez assez longuement ici pour faire apparaître le menu contextuel</string>
+    <string name="menu_selectionne">Item de menu %s sélectionné</string>
+    <string name="menu_contextuel_option1_txt">Option 1</string>
+    <string name="menu_contextuel_option2_txt">Option 2</string>
+    <string name="menu_contextuel_option3_txt">Option 3</string>
+    <string name="menu_contextuel_option4_txt">Option 4</string>
+    <string name="menu_contextuel_option5_txt">Option 5</string>
+</resources>
